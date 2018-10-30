@@ -6,11 +6,11 @@ import (
 )
 
 type Bulletin struct {
-	Id string `orm:"pk"`
+	Id       string `orm:"pk"`
 	Username string `json:"username"`
-	Title string `json:"title"`
-	Contect string `json:"contect"`
-	time string `json:"time"`
+	Title    string `json:"title"`
+	Contect  string `json:"contect"`
+	time     string `json:"time"`
 }
 
 //return table name without prefix

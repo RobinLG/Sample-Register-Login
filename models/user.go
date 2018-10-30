@@ -5,11 +5,11 @@ import (
 )
 
 type User struct {
-	Username string `orm:"pk"`
-	Nickname string `json:"nickname"`
-	Location string `json:"location"`
-	Password string `json:"password"`
-	Mobile string `json:"mobile"`
+	Username    string `orm:"pk"`
+	Nickname    string `json:"nickname"`
+	Location    string `json:"location"`
+	Password    string `json:"password"`
+	Mobile      string `json:"mobile"`
 	// When user need to reset password, recoverCode will br put in database. If CHECK_CODE of activate link equals recoverCode, user reset password successful.
 	RecoverCode string `json:"recover_code"`
 }
