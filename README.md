@@ -1,8 +1,5 @@
 # Sample-Login-Register
 
-Although I can communicate and read literature in English, I am afraid of the ambiguity in the expression of professional skills, 
-so I will use Chinese to express.
-
 正如你所见，我按照此流程图做了一个关于登录与注册的demo。但是并未全部做完，图中红框的部分我不大明白需求，也就没做下去了。在做此demo之前我并未接触过beego，
 在这段时间里我一边熟悉beego，一边完成demo。由于自己也有工作和别的事情要做，所以每天只能抽出一些时间来完成它。总共花了4天，大概20个小时。
 
